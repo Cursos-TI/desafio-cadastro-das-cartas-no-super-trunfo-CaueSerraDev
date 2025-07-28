@@ -4,9 +4,16 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+//Teste Cauê Serra
 
 int main() {
+    char estado[A,B,C,D,E,F,G,H];
+    char codigoDaCarta[03];
+    char NomeDaCidade[20];
+    int população;
+    float area;
+    float pib;
+    int PontosTuristicos;
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
