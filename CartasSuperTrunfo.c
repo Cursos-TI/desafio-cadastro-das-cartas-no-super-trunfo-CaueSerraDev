@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-int main() {
-    // Variáveis da Carta 1
-    char estado1;
+//variáveis da carta 1
+   char estado1;
     char codigo1[4]; // Ex: "A01" (+1 para o '\0')
     char nomeCidade1[50];
     int populacao1;
@@ -20,51 +19,53 @@ int main() {
     float pib2;
     int pontosTuristicos2;
 
-    printf("=== Cadastro da Carta 1 ===\n");
+    //(Leitura, Cadastro da Carta 1 ===\n" );
+    printf("\n=== Cadastro da Carta 1 ===\n");
     printf("Digite o Estado de (A-H): ");
     scanf(" %c", &estado1);
 
-    printf("Código da Carta (Ex: A01): ");
+    printf("Digite o Código da Carta (Ex: A01): ");
     scanf("%s", codigo1);
 
-    printf("Nome da Cidade: ");
+    printf("Digite o Nome da Cidade: ");
     scanf(" %[^\n]", nomeCidade1); // lê até o ENTER (incluindo espaços)
 
-    printf("População: ");
+    printf("Digite a População: ");
     scanf("%d", &populacao1);
 
-    printf("Área (km²): ");
+    printf("Digite a Área da cidade em (km²): ");
     scanf("%f", &area1);
 
-    printf("PIB (em bilhões de reais): ");
+    printf("Digite o PIB dessa cidade (em bilhões de reais): ");
     scanf("%f", &pib1);
 
-    printf("Número de Pontos Turísticos: ");
+    printf("Digite o Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos1);
 
+    //(leitura, cadastro da carta 2)
     printf("\n=== Cadastro da Carta 2 ===\n");
-    printf("Estado (A-H): ");
+    printf("Digite o Estado (A-H): ");
     scanf(" %c", &estado2);
 
-    printf("Código da Carta (Ex: B02): ");
+    printf("Digite o Código da Carta (Ex: B02): ");
     scanf("%s", codigo2);
 
-    printf("Nome da Cidade: ");
+    printf("Digite o Nome da Cidade: ");
     scanf(" %[^\n]", nomeCidade2);
 
-    printf("População: ");
+    printf("Digite a População: ");
     scanf("%d", &populacao2);
 
-    printf("Área (km²): ");
+    printf("Digite a Área em (km²): ");
     scanf("%f", &area2);
 
-    printf("PIB (em bilhões de reais): ");
+    printf("Digite o PIB desta cidade (em bilhões de reais): ");
     scanf("%f", &pib2);
 
-    printf("Número de Pontos Turísticos: ");
+    printf("Digite o Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos2);
 
-    // Exibindo os dados
+    // Exibindo os dados;
     printf("\n===== CARTA 1 =====\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
